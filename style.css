@@ -1,0 +1,39 @@
+body{
+    background-image: url('tasks.png'); 
+}
+.green {
+    color: lightgreen;
+  }
+  .red {
+    color: lightcoral;
+  }
+  .blue {
+    color: skyblue;
+  }
+  #itemList {
+    font-size: 1.5rem;
+  }
+  .show {
+    display: block;
+  }
+  .hide {
+    display: none;
+
+  }
+  .nav-tabs {
+    border: 1px solid lightgray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #f2f2ff;
+    
+  }
+  .list-group-item:hover{
+    background: #f1f27f;
+  }
+  .nav-tabs:hover{
+    box-shadow: 0 0 20px #ccc; 
+  }
+  .list-group:hover{
+    box-shadow: 0 0 20px #ccc;
+    border: 1px solid #ccc;
+  }
